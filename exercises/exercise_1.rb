@@ -33,7 +33,7 @@ end
 store = Store.new do |s|
   s.name = "Gastown"
   s.annual_revenue = 190000
-  s.mens_apparel = true
+  s.mens_apparel = false
   s.womens_apparel = false
   s.save
 end
